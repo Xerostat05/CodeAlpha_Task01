@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <div class="heading">
+    <h1>IMAGE GALLERY</h1></div>
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="art">Art</span>
+        <span class="item" data-name="music">Music</span>
+        <span class="item" data-name="humor">Humor</span>
+        <span class="item" data-name="movie">Movie</span>
+        <span class="item" data-name="lit">Literature</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="art"><span><img src="images/art_1.jpg" alt=""></span></div>
+      <div class="image" data-name="music"><span><img src="images/music_1.jpg" alt=""></span></div>
+      <div class="image" data-name="humor"><span><img src="images/humor_1.jpg" alt=""></span></div>
+      <div class="image" data-name="movie"><span><img src="images/movie_1.jpg" alt=""></span></div>
+      <div class="image" data-name="lit"><span><img src="images/lit_1.jpg" alt=""></span></div>
+      <div class="image" data-name="art"><span><img src="images/art_2.jpg" alt=""></span></div>
+      <div class="image" data-name="music"><span><img src="images/music_2.jpg" alt=""></span></div>
+      <div class="image" data-name="movie"><span><img src="images/movie_2.jpg" alt=""></span></div>
+      <div class="image" data-name="lit"><span><img src="images/lit_2.jpg" alt=""></span></div>
+      <div class="image" data-name="humor"><span><img src="images/humor_2.jpg" alt=""></span></div>
+      <div class="image" data-name="art"><span><img src="images/art_3.jpg" alt=""></span></div>
+      <div class="image" data-name="movie"><span><img src="images/movie_3.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
